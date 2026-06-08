@@ -1,0 +1,71 @@
+body {
+    background: #f5f7fb;
+}
+
+
+header {
+    height: 80px;
+    background: #fffcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #eef0f5;
+
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+.logo h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-areas: "sidebar main saidebar right";
+}
+
+.stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    display: grid; 
+    grid-template-columns: auto;
+}
